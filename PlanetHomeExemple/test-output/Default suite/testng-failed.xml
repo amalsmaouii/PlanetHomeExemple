@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ph.smoke.CalculatorTest">
+        <methods>
+          <include name="initCalculator"/>
+          <include name="afterEachTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- ph.smoke.CalculatorTest -->
+      <class name="ph.smoke.ProgramTest">
+        <methods>
+          <include name="testConcat"/>
+          <include name="createMessageTest"/>
+        </methods>
+      </class> <!-- ph.smoke.ProgramTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

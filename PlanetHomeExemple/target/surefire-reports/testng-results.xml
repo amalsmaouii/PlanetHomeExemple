@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Regression " duration-ms="15" started-at="2019-04-29T23:47:04Z" finished-at="2019-04-29T23:47:04Z">
+    <groups>
+      <group name="testEntityKey:EXE-TC-2">
+        <method signature="ProgramTest.IsOver16()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="IsOver16" class="ph.smoke.ProgramTest"/>
+        <method signature="ProgramTest.createMessageTest()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="createMessageTest" class="ph.smoke.ProgramTest"/>
+        <method signature="ProgramTest.testConcat()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="testConcat" class="ph.smoke.ProgramTest"/>
+      </group> <!-- testEntityKey:EXE-TC-2 -->
+      <group name="testEntityKey:EXE-TC-1">
+        <method signature="CalculatorTest.testDivison()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="testDivison" class="ph.smoke.CalculatorTest"/>
+        <method signature="CalculatorTest.testSum()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="testSum" class="ph.smoke.CalculatorTest"/>
+      </group> <!-- testEntityKey:EXE-TC-1 -->
+      <group name="requirementEntityKey:EXE-RQ-1">
+        <method signature="CalculatorTest.testDivison()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="testDivison" class="ph.smoke.CalculatorTest"/>
+        <method signature="CalculatorTest.testSum()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="testSum" class="ph.smoke.CalculatorTest"/>
+        <method signature="ProgramTest.IsOver16()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="IsOver16" class="ph.smoke.ProgramTest"/>
+        <method signature="ProgramTest.createMessageTest()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="createMessageTest" class="ph.smoke.ProgramTest"/>
+        <method signature="ProgramTest.testConcat()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="testConcat" class="ph.smoke.ProgramTest"/>
+      </group> <!-- requirementEntityKey:EXE-RQ-1 -->
+    </groups>
+    <test name="Command line test" duration-ms="15" started-at="2019-04-29T23:47:04Z" finished-at="2019-04-29T23:47:04Z">
+      <class name="ph.smoke.CalculatorTest">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="beforeEachTest" is-config="true" duration-ms="6" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="initCalculator()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="initCalculator" is-config="true" duration-ms="1" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initCalculator -->
+        <test-method status="PASS" signature="testDivison()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="testDivison" duration-ms="1" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivison -->
+        <test-method status="PASS" signature="testSum()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="testSum" duration-ms="0" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:ph.smoke.CalculatorTest@30c7da1e]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- ph.smoke.CalculatorTest -->
+      <class name="ph.smoke.ProgramTest">
+        <test-method status="PASS" signature="IsOver16()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="IsOver16" duration-ms="1" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsOver16 -->
+        <test-method status="PASS" signature="createMessageTest()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="createMessageTest" duration-ms="0" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMessageTest -->
+        <test-method status="PASS" signature="testConcat()[pri:0, instance:ph.smoke.ProgramTest@3796751b]" name="testConcat" duration-ms="0" started-at="2019-04-30T00:47:04Z" finished-at="2019-04-30T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConcat -->
+      </class> <!-- ph.smoke.ProgramTest -->
+    </test> <!-- Command line test -->
+  </suite> <!--  Regression  -->
+</testng-results>
